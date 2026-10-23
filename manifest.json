@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.ldockwiller.becherel-fr",
+  "name": "Conjugaison FR",
+  "version": "1.0.0",
+  "author": "LDockwiller",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/LDockwiller/becherel-fr",
+  "description": "Conjugueur français à la manière du Bescherelle : tous les modes et temps de 7 000 verbes, hors ligne.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Conjugaison FR",
+    "description": "Conjugaison française complète, hors ligne",
+    "category": "Reference",
+    "allowMultiple": false
+  }
+}
